@@ -1,0 +1,32 @@
+.player-bar {
+    @include flex($justify: center);
+    flex-direction: column;
+    flex: 1;
+
+    button {
+        color: $clr-txtsub;
+
+        &:hover {
+            color: $clr-txt;
+        }
+    }
+
+    .player-control {
+        display: flex;
+        align-items: center;
+        gap: 1.5em;
+        margin-bottom: .5em;
+
+        .playbar-play-pause {
+            width: 50px;
+            height: 40px;
+            padding-left: 1.2rem;
+        }
+    }
+
+    .playback-bar {
+        @include flex;
+        gap: .5em;
+        width: 100%;
+    }
+}

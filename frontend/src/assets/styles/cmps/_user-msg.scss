@@ -1,0 +1,20 @@
+.user-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    color: $bgc-base;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $clr-txt;
+    padding: .5em 0;
+}
+
+.user-msg.success {
+    background-color: "green";
+}
+
+.user-msg.error {
+    background-color: rgb(216, 59, 59);
+}

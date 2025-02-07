@@ -1,0 +1,27 @@
+.song-display {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: .5em;
+
+    h5 {
+        color: $clr-txt;
+    }
+
+    img {
+        width: 56px;
+        height: 56px;
+    }
+
+    @media (max-width: 700px) {
+        h5 {
+            font-size: 0.7rem;
+        }
+
+        img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+
+}

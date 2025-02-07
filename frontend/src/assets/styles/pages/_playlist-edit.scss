@@ -1,0 +1,43 @@
+.playlist-detail-header-title-input {
+  background-color: $bgc-hover;
+  color: $clr-txt;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  padding-left: 3px;
+}
+
+.playlist-edit-name {
+  &:focus {
+    outline: none;
+  }
+}
+
+.playlist-chosen-img {
+  opacity: 0.7;
+}
+
+.save-new-playlist {
+  background-color: $bgc-hover;
+  color: $clr-txtsub;
+  padding: 6px;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 4px;
+
+  &:hover {
+    color: $clr-txt;
+    transition: 0.3s ease-in-out;
+  }
+
+  &:active {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+
+  @media (max-width: 700px) {
+
+    margin-top: 1rem;
+  }
+}
